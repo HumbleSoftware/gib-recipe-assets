@@ -1,6 +1,6 @@
 {
   "name": "gib-recipe-assets",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Gib recipe to copy assets.",
   "main": "index.js",
   "scripts": {
