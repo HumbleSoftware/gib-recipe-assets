@@ -1,0 +1,11 @@
+{
+  "name": "gib-recipe-assets",
+  "version": "0.0.0",
+  "description": "Gib recipe to copy assets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"None.\""
+  },
+  "author": "Carl Sutherland <carl@humblesoftware.com>",
+  "license": "ISC"
+}
