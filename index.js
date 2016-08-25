@@ -13,11 +13,12 @@ module.exports = factory();
 
 /**
  * Task factory.
- *
- * TODO inject gulp, dummy!
  */
-function factory (bus) {
+function factory (gulp, bus) {
 
+  /**
+   * Gulp task:
+   */
   function task (options) {
 
     options = config(options);
@@ -25,7 +26,7 @@ function factory (bus) {
     // Task:
     return function () {
 
-      var gulp     = this;
+      gulp = gulp || this;
 
       // Asset copy task:
       var s = gulp
