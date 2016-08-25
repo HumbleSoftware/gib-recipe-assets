@@ -3,21 +3,18 @@
 // Modules:
 var path = require('path');
 
-// Locals:
-var bus = null;
-
 
 // Exports:
 module.exports = factory();
 
 
 /**
- * Task factory.
+ * Module factory.
  */
 function factory (gulp, bus) {
 
   /**
-   * Gulp task:
+   * Gulp task builder:
    */
   function task (options) {
 
