@@ -32,7 +32,7 @@ function factory (gulp, bus) {
 
       // Refresh:
       if (bus) {
-        s.pipe(bus.refreshStream());
+        s = s.pipe(bus.refreshStream());
       }
 
       return s;
